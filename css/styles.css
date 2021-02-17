@@ -33,6 +33,26 @@ body {
 .navbar-dark {
     background-color: #512DAB;
 }
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:300px;
+}
 .breadcrumb:before {
     content: '';
     position: absolute;
@@ -52,4 +72,7 @@ body {
     width: 200px;
     height: 100%;
     border-bottom-right-radius: 20px;
+}
+.modal-dialog {
+    color: black;
 }
